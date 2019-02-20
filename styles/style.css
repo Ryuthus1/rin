@@ -1,0 +1,61 @@
+@media (max-width: 991px){
+  .floating{
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  .footer{
+    font-size: 0.5rem;
+  }
+}
+@media (min-width: 992px){
+  h1{
+    padding-top: 25%;
+  }
+  .align-thanks{
+    padding-top: 3%;
+  }
+}
+a{
+  color: inherit;
+}
+
+body{
+  margin: 0;
+  font-family: 'Montserrat', sans-serif;
+}
+
+p{
+  font-size: 1.5rem;
+  padding: 5%;
+}
+
+img{
+  width: 50%;
+}
+
+.main, .studying, .thanks{
+  background-color: #87ceeb;
+  text-align: center;
+  color: #fff;
+  padding: 15% 3%;
+}
+
+.three{
+  margin: 7% 0;
+  text-align: center;
+}
+
+.languages{
+  text-align: center;
+  padding: 15% 3%;
+}
+
+.thanks img{
+  width: 40%;
+}
+.align{
+  padding-top: 5%;
+}
+.footer{
+  text-align: center;
+}
